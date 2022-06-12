@@ -14,8 +14,8 @@
 		E470E57B284D64EF00ABB943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E470E57A284D64EF00ABB943 /* Assets.xcassets */; };
 		E470E57E284D64EF00ABB943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E470E57C284D64EF00ABB943 /* LaunchScreen.storyboard */; };
 		E47E86B4284D66D6002E0E86 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E86B3284D66D6002E0E86 /* Song.swift */; };
-		E4A6E11428502E33005C8777 /* songTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6E11228502E33005C8777 /* songTableViewCell.swift */; };
-		E4A6E11528502E33005C8777 /* songTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A6E11328502E33005C8777 /* songTableViewCell.xib */; };
+		E4A6E11428502E33005C8777 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6E11228502E33005C8777 /* SongTableViewCell.swift */; };
+		E4A6E11528502E33005C8777 /* SongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A6E11328502E33005C8777 /* SongTableViewCell.xib */; };
 		E4AAD1D6285152D6008D7665 /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AAD1D4285152D6008D7665 /* SongDetailViewController.swift */; };
 		E4AAD1D7285152D6008D7665 /* SongDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4AAD1D5285152D6008D7665 /* SongDetailViewController.xib */; };
 /* End PBXBuildFile section */
@@ -30,8 +30,8 @@
 		E470E57D284D64EF00ABB943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E470E57F284D64EF00ABB943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47E86B3284D66D6002E0E86 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
-		E4A6E11228502E33005C8777 /* songTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songTableViewCell.swift; sourceTree = "<group>"; };
-		E4A6E11328502E33005C8777 /* songTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = songTableViewCell.xib; sourceTree = "<group>"; };
+		E4A6E11228502E33005C8777 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		E4A6E11328502E33005C8777 /* SongTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongTableViewCell.xib; sourceTree = "<group>"; };
 		E4AAD1D4285152D6008D7665 /* SongDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
 		E4AAD1D5285152D6008D7665 /* SongDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,8 +74,8 @@
 				E470E57C284D64EF00ABB943 /* LaunchScreen.storyboard */,
 				E470E57F284D64EF00ABB943 /* Info.plist */,
 				E47E86B3284D66D6002E0E86 /* Song.swift */,
-				E4A6E11228502E33005C8777 /* songTableViewCell.swift */,
-				E4A6E11328502E33005C8777 /* songTableViewCell.xib */,
+				E4A6E11228502E33005C8777 /* SongTableViewCell.swift */,
+				E4A6E11328502E33005C8777 /* SongTableViewCell.xib */,
 				E4AAD1D4285152D6008D7665 /* SongDetailViewController.swift */,
 				E4AAD1D5285152D6008D7665 /* SongDetailViewController.xib */,
 			);
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4AAD1D7285152D6008D7665 /* SongDetailViewController.xib in Resources */,
-				E4A6E11528502E33005C8777 /* songTableViewCell.xib in Resources */,
+				E4A6E11528502E33005C8777 /* SongTableViewCell.xib in Resources */,
 				E470E57E284D64EF00ABB943 /* LaunchScreen.storyboard in Resources */,
 				E470E57B284D64EF00ABB943 /* Assets.xcassets in Resources */,
 				E470E579284D64E700ABB943 /* Main.storyboard in Resources */,
@@ -160,7 +160,7 @@
 				E470E576284D64E700ABB943 /* ViewController.swift in Sources */,
 				E470E572284D64E700ABB943 /* AppDelegate.swift in Sources */,
 				E470E574284D64E700ABB943 /* SceneDelegate.swift in Sources */,
-				E4A6E11428502E33005C8777 /* songTableViewCell.swift in Sources */,
+				E4A6E11428502E33005C8777 /* SongTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

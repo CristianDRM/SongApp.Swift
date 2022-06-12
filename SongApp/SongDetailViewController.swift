@@ -32,9 +32,9 @@ class SongDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Detalhes da  música"
-        bandImageView.image = song.bandImage
-        songNameLabel.text = song.songName
-        bandNameLabel.text = song.bandName
+        bandImageView?.image = song.bandImage
+        songNameLabel?.text = song.name
+        bandNameLabel?.text = song.band
     }
 
 

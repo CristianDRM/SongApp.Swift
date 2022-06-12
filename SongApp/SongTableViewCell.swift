@@ -7,11 +7,8 @@
 
 import UIKit
 
-class songTableViewCell: UITableViewCell {
-
+class SongTableViewCell: UITableViewCell {
     @IBOutlet weak var songNameLabel: UILabel!
     @IBOutlet weak var bandImageView: UIImageView!
     
-    }
-    
-
+}

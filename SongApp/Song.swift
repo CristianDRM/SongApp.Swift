@@ -6,17 +6,10 @@
 //
 
 import UIKit
-class Song{
-    var songName : String
-    var bandImage : UIImage
-    var bandName : String
-    var link: String
-    
-    
-    init(name: String, image: UIImage, band: String, bandLink: String ){
-        songName = name
-        bandImage = image
-        bandName = band
-        link = bandLink
-    }
+
+struct Song{
+    let name: String
+    let bandImage: UIImage
+    let band: String
+    let link: String
 }
